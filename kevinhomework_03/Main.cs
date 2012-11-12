@@ -10,12 +10,26 @@ namespace kevinhomework_02
 			int PChoice = 0;
 			int RoChoice = 0;
 			
+			/*
+			Greeting greet = new Greeting();
+			greet.bye();
+			
+			Hello hi = new Hello();
+			hi.bye();
+			hi.cheer();
+			
+			return;
+			*/
+			
+			
+			
 			Random random = new Random();
 			
 			/// robot initializing here...
 			Robot robot1 = new Robot ("Robot");
 			
 			
+			// Robot Attack : Random Number
 			RoChoice = random.Next(1,4);
 			
 			Console.WriteLine ("enter your ID");
@@ -27,10 +41,21 @@ namespace kevinhomework_02
 			
 			Console.WriteLine ("HP :" + robot1.hp);
 			
+			//RoChoice = robot1.Attack();
+			//PoChoice = player.Attack();
 			
+			Character character = new Character();
+			Console.WriteLine( character.attack() );
+			Console.WriteLine( character.robothp() );
+			Console.WriteLine( character.playerhp() );
+			
+			c_attack cattack = new c_attack();
+			
+			cattack.attack();
 			
 			while (true)
 			{	
+				// Player Attack : Input Number
 				Console.WriteLine ("\nGawhi =1 , Bawhi =2 , Bo =3");
 				PChoice = (Console.Read()-48);
 				Console.WriteLine ("\n" + "Your choice : (" + PChoice + ") - (" + RoChoice + ") Robot choice");
@@ -59,35 +84,7 @@ namespace kevinhomework_02
 	}
 }
 
-public class Robot
-{
-	public int hp;
-	protected string _name;
-	protected int _num;
-	
-	public string name
-	{
-		get { return _name; }
-	}
-	
-	public int num
-	{
-		get { return _num; }
-	}
-	
-	public bool isDead
-	{
-		get { return hp <= 0; }
-	}
-	
-	public Robot(string newName)
-	{
-		Random r = new Random();
-		hp = r.Next(8,11);
-		_name = "Robot";
-		_num = r.Next(1,11);
-	}
-};
+
 
 
 public class Result
