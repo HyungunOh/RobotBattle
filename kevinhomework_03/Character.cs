@@ -2,23 +2,34 @@ using System;
 
 public class Character
 {
+	protected string name;
 	
-	protected int php;
+	protected int curHP;
+	protected int maxHP;
 	
-	public virtual int playerhp ()
+	
+	public Character()
 	{
-		int a = 10;
-		
-		return a;	
+		InitHP();
 	}
-		
-	public int robothp ()
+	
+	public Character(string newName)
 	{
-		int hp;
+		name = newName;
+		InitHP();
+	}
+	
+	public void PrintInfo()
+	{
+		Console.WriteLine("{0}: {1}/{2}", name, curHP, php);
+	}
+	
+	public virtual void InitHP()
+	{
+		//php = 10;
 		Random r = new Random();
-		hp = r.Next(8,11);
-		
-		return hp;
+		maxHP = r.Next(8,11);
+		curHP = maxHP;
 	}
 		
 	public virtual int attack()
@@ -34,13 +45,23 @@ public class Character
 }
 
 
-class c_attack : Character {
+class Player : Character {
+
+	
+	public override void InitHP ()
+	{
+		maxHP = 10;
+		curHP = maxHP;
+	} 
 	
 	public override int attack() {
 		int a;
 		a = Console.Read();
-	
 		return a;
 	}
 }
+
+class Robot : Character
+{
 	
+}
