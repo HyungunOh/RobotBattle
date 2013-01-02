@@ -1,18 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kevinhomework_03/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kevinhomework_03/Greeting.cs">
     <Files>
-      <File FileName="kevinhomework_03/Main.cs" Line="1" Column="1" />
+      <File FileName="kevinhomework_03/Main.cs" Line="110" Column="9" />
+      <File FileName="kevinhomework_03/Greeting.cs" Line="16" Column="2" />
+      <File FileName="kevinhomework_03/Robot.cs" Line="7" Column="21" />
+      <File FileName="kevinhomework_03/Character.cs" Line="42" Column="13" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="kevinhomework_03" expanded="True">
-            <Node name="Main.cs" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
