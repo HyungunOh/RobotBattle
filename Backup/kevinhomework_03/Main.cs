@@ -21,7 +21,7 @@ namespace kevinhomework_02
 			return;
 			*/
 			
-			//add code
+			
 			
 			Random random = new Random();
 			

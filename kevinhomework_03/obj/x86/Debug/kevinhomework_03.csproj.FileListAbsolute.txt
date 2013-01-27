@@ -1,0 +1,5 @@
+C:\Users\kevinoh\Documents\RobotBattle\kevinhomework_03\bin\Debug\kevinhomework_03.exe
+C:\Users\kevinoh\Documents\RobotBattle\kevinhomework_03\bin\Debug\kevinhomework_03.pdb
+C:\Users\kevinoh\Documents\RobotBattle\kevinhomework_03\obj\x86\Debug\kevinhomework_03.csprojResolveAssemblyReference.cache
+C:\Users\kevinoh\Documents\RobotBattle\kevinhomework_03\obj\x86\Debug\kevinhomework_03.exe
+C:\Users\kevinoh\Documents\RobotBattle\kevinhomework_03\obj\x86\Debug\kevinhomework_03.pdb

@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kevinhomework_03", "kevinhomework_03\kevinhomework_03.csproj", "{20731FB4-2570-4E4F-BEC2-0A0346323D0F}"
 EndProject
 Global
@@ -13,9 +13,6 @@ Global
 		{20731FB4-2570-4E4F-BEC2-0A0346323D0F}.Debug|x86.Build.0 = Debug|x86
 		{20731FB4-2570-4E4F-BEC2-0A0346323D0F}.Release|x86.ActiveCfg = Release|x86
 		{20731FB4-2570-4E4F-BEC2-0A0346323D0F}.Release|x86.Build.0 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = kevinhomework_03\kevinhomework_03.csproj
